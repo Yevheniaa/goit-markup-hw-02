@@ -17,12 +17,14 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo-black {
+  font-family: "Raleway", sans-serif;
   color: #2e2f42;
 }
-.header-logo-iris {
-  font-family: "Raleway", sans-serif;
-
-  color: #4d5ae5;
+.header-contacts {
+  font-style: normal;
 }
 .header-menu-link {
   font-weight: 500;
@@ -34,6 +36,10 @@ a {
 .header-menu-link:hover {
   color: #404bbf;
 }
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .header-menu-link:active {
   color: #404bbf;
 }
@@ -44,6 +50,9 @@ a {
   color: #434455;
 }
 .header-address-link:hover {
+  color: #404bbf;
+}
+.header-address-link:focus {
   color: #404bbf;
 }
 .hero {
@@ -59,10 +68,19 @@ a {
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
   background: #4d5ae5;
   cursor: pointer;
 }
 .hero-button:hover {
+  background-color: #404bbf;
+}
+.hero-button:focus {
   background-color: #404bbf;
 }
 /* --------------------ADVANTURES-------------------- */
@@ -81,12 +99,17 @@ a {
 }
 
 /* ----------------------TEAM---------------- */
+.section-team {
+  background: #f4f4fd;
+}
 
 .section-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .section-team-list {
@@ -113,7 +136,7 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -136,13 +159,13 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
-}
-.footer-logo-iris {
   color: #4d5ae5;
+}
+.footer-logo-white {
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
